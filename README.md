@@ -8,7 +8,7 @@
 
 The **Model Context Protocol (MCP)** is an **open protocol** that standardizes how applications provide **contextual data to Large Language Models (LLMs)**. It acts as a bridge between LLMs and various data sources or tools, allowing LLMs to perform complex tasks using real-time, contextual information.
 
-![MCP](https://github.com/Pavan-Kumar-Adapala/MCP_Model_Context_Protocol/img/MCP.png)
+![MCP](https://github.com/Pavan-Kumar-Adapala/MCP_Model_Context_Protocol/tree/Prod/img/MCP.png)
 
 ---
 
@@ -20,7 +20,7 @@ Modern AI applications often require interaction with live systems, databases, a
 * Supporting **agent-based automation workflows**.
 * Offering a **standardized integration pattern** to connect to local and remote systems.
 
-![MCP Server](https://github.com/Pavan-Kumar-Adapala/MCP_Model_Context_Protocol/img/MCPserver.png)
+![MCP Server](https://github.com/Pavan-Kumar-Adapala/MCP_Model_Context_Protocol/tree/Prod/img/MCPserver.png)
 
 ---
 
@@ -28,7 +28,7 @@ Modern AI applications often require interaction with live systems, databases, a
 
 MCP follows a **client-server architecture**:
 
-![Architecture](https://github.com/Pavan-Kumar-Adapala/MCP_Model_Context_Protocol/img/arch.png)
+![Architecture](https://github.com/Pavan-Kumar-Adapala/MCP_Model_Context_Protocol/tree/Prod/img/arch.png)
 
 ### MCP Host
 
@@ -60,7 +60,7 @@ While not technically the same, the **role of an MCP server** is similar in spir
 
 This comparison highlights the **intermediary nature** of both components. However, MCP servers are more **semantic and task-oriented**, while reverse proxies handle raw network routing.
 
-![Reverse Proxy Server](https://github.com/Pavan-Kumar-Adapala/MCP_Model_Context_Protocol/img/proxy.png)
+![Reverse Proxy Server](https://github.com/Pavan-Kumar-Adapala/MCP_Model_Context_Protocol/tree/Prod/img/proxy.png)
 
 ---
 
@@ -73,7 +73,7 @@ Just like REST APIs allow applications to communicate, **MCP servers allow LLMs 
 
 Each MCP server should be tailored to a specific data domain or functionality, much like how each REST API is scoped.
 
-![REST API](https://github.com/Pavan-Kumar-Adapala/MCP_Model_Context_Protocol/img/https.png)
+![REST API](https://github.com/Pavan-Kumar-Adapala/MCP_Model_Context_Protocol/tree/Prod/img/https.png)
 
 ---
 
